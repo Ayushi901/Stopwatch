@@ -1,0 +1,254 @@
+.container-fluid{
+	background-color: black;
+	height: 100%;
+}
+
+.title{
+	color: yellow;
+	font-size: 4rem;
+	text-align: center;
+}
+
+.outer-circle{
+	border: 4px solid #9e9e9ec9;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px lightgrey inset;
+}
+
+.inner-circle{
+	border: 4px dotted #0429f3;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #0429f3;
+}
+
+.timer{
+	color: white;
+}
+
+.digit{
+	font-weight: bold;
+}
+
+.action{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+@media screen and (max-width:1400px){
+	.title{
+		position: relative;
+		top:60%;
+		font-size: 3rem;
+	}
+
+	.outer-circle{
+		height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 15%;
+        left: 38%;
+        margin-bottom: 220px;
+	}
+
+	.inner-circle{
+	    height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: 3%;
+        left: 4%;
+	}
+
+	.timer{
+		position: relative;
+		top:38%;
+	}
+	
+	.digit{
+		font-size:3.3rem;
+	}
+
+	.txt{
+		font-size:0.7rem;
+	}
+
+	.action{
+		position: relative;
+		top:-150%;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width:1200px){
+	.title{
+		position: relative;
+		top:60%;
+		font-size: 3rem;
+	}
+
+	.outer-circle{
+		height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 15%;
+        left: 36%;
+        margin-bottom: 204px;
+	}
+
+	.inner-circle{
+	    height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: 3%;
+        left: 4%;
+	}
+
+	.timer{
+		position: relative;
+		top:38%;
+	}
+	
+	.digit{
+		font-size:3.3rem;
+	}
+
+	.txt{
+		font-size:0.7rem;
+	}
+
+	.action{
+		position: relative;
+		top:-150%;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width:992px){
+	.title{
+		position: relative;
+		top:60%;
+		font-size: 3rem;
+	}
+
+	.outer-circle{
+		height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 15%;
+        left: 33%;
+        margin-bottom: 204px;
+	}
+
+	.inner-circle{
+	    height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: 3%;
+        left: 4%;
+	}
+
+	.timer{
+		position: relative;
+		top:38%;
+	}
+	
+	.digit{
+		font-size:3.3rem;
+	}
+
+	.txt{
+		font-size:0.7rem;
+	}
+
+	.action{
+		position: relative;
+		top:-150%;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width:768px){
+	.title{
+		position: relative;
+		top:60%;
+		font-size: 3rem;
+	}
+
+	.outer-circle{
+		height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 15%;
+        left: 28%;
+        margin-bottom: 204px;
+	}
+
+	.inner-circle{
+	    height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: 3%;
+        left: 4%;
+	}
+
+	.timer{
+		position: relative;
+		top:38%;
+	}
+	
+	.digit{
+		font-size:3.3rem;
+	}
+
+	.txt{
+		font-size:0.7rem;
+	}
+
+	.action{
+		position: relative;
+		top:-150%;
+	}
+}
+
+@media screen and (max-width:576px){
+	.title{
+		position: relative;
+		top:60%;
+		font-size: 3rem;
+	}
+
+	.outer-circle{
+		height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: 15%;
+        left: 15%;
+        margin-bottom: 204px;
+	}
+
+	.inner-circle{
+	    height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: 3%;
+        left: 4%;
+	}
+
+	.timer{
+		position: relative;
+		top:38%;
+	}
+	
+	.digit{
+		font-size:3.3rem;
+	}
+
+	.txt{
+		font-size:0.7rem;
+	}
+
+	.action{
+		position: relative;
+		top:-150%;
+	}
+}
